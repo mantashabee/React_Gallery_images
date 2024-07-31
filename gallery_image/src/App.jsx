@@ -73,7 +73,7 @@ function App() {
         <div onClick={() => handleSelection('food')}>Food</div>
         <div onClick={() => handleSelection('birds')}>Birds</div>
         <div onClick={() => handleSelection('beaches')}>Beaches</div>
-        <div onClick={() => handleSelection('Mountain')}>Shoes</div>
+        <div onClick={() => handleSelection('Mountain')}>Mountain</div>
       </div>
       {loading ? (
         <p className='loading'>Loading...</p>
